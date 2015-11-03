@@ -1,3 +1,10 @@
+DESCRIPTION :
+-------------
+
+A Python implementation of AISRJ on a toy example 
+where the task is to sample from a transimensional 
+target distribusion defined on {1}xR∪{2}xRxR.
+
 CONTACT DETAILS :
 -----------------
 
