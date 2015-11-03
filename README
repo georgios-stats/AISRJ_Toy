@@ -1,0 +1,67 @@
+CONTACT DETAILS :
+-----------------
+
+Georgios Karagiannis
+School of Mathematics, University of Bristol
+University Walk, Bristol, BS8 1TW, UK
+Email (current): Georgios.Karagiannis@pnnl.gov
+
+Christophe Andrieu
+School of Mathematics, University of Bristol
+University Walk, Bristol, BS8 1TW, UK
+Email: C.Andrieu@bristol.ac.uk
+
+
+REQUIREMENTS :
+--------------
+
+python 2.6 or later (tested on python 3.2 too)
+numpy and sys python modules
+
+FILES :
+-------
+
+aisRJ.py    : main python script 
+
+            input :
+            
+               -k=         initial value for the between model random parameter
+                  ( default : -k=1 )
+               -x=         initial value for the within model random parameter
+                  ( default : -x=[0.0,0.0] )
+               -niters=    number of iterations
+                  ( default : -niters=10**5 )
+               -nburnin=   number of burn-in iterations
+                  ( default : -nburnin=0 )
+               -scl=       scale parameter of AIS proposals
+                  ( default : -scl=1.0 )
+               -Tau=       number of intermediate distributions
+                  ( default : -Tau=1 )
+               -Qrj=       marginal proposal for the between model parameter
+                  ( default : -Qrj=[[0,1],[1,0]] )
+               -maux=      mean parameter of the RJ dimension matching proposal
+                  ( default : -maux=3.0 )
+               -saux=      std parameter of the RJ dimension matching proposal
+                  ( default : -saux=1.0 )
+            
+            output :
+            
+               ./results/k.T#       sample of between model random parameter
+               ./results/x.T#       sample of within model random parameter
+               ./results/move.T#    sample of RJ moves e.g. " 1 2 ", if "1 -> 2"
+               ./results/accpr.T#   sample of acceptance probabilities
+               ./results/logAIW.T#  sample of AIS weights in log scale
+               
+            examples :
+            
+               python aisRJ.py -Tau=20 -maux=5.0 -Qrj=[[0,1],[1,0]]
+            
+target.py   : auxiliary script that contains functions related to 
+               the joint transdimensional distribution density
+            
+rho.py      : auxiliary script that contains functions related to 
+               the intermediate distribution densities
+
+results/    : folder that contains the output of the program
+
+
