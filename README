@@ -5,6 +5,13 @@ A Python implementation of AISRJ on a toy example
 where the task is to sample from a transimensional 
 target distribusion defined on {1}xR∪{2}xRxR.
 
+REFERENCES:
+-----------
+
+Karagiannis, G., & Andrieu, C. (2013). 
+Annealed importance sampling reversible jump MCMC algorithms. 
+Journal of Computational and Graphical Statistics, 22(3), 623-648.
+
 CONTACT DETAILS :
 -----------------
 
@@ -70,13 +77,4 @@ rho.py      : auxiliary script that contains functions related to
                the intermediate distribution densities
 
 results/    : folder that contains the output of the program
-
-
-REFERENCES:
------------
-
-Karagiannis, G., & Andrieu, C. (2013). 
-Annealed importance sampling reversible jump MCMC algorithms. 
-Journal of Computational and Graphical Statistics, 22(3), 623-648.
-
 
