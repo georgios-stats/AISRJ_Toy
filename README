@@ -5,6 +5,8 @@ A Python implementation of AISRJ on a toy example
 where the task is to sample from a transimensional 
 target distribusion defined on {1}xR∪{2}xRxR.
 
+Georgios Karagiannis (Copyright 2012)
+
 REFERENCES:
 -----------
 
@@ -15,7 +17,7 @@ Journal of Computational and Graphical Statistics, 22(3), 623-648.
 CONTACT DETAILS :
 -----------------
 
-Georgios Karagiannis (Copyright 2012)
+Georgios Karagiannis
 School of Mathematics, University of Bristol
 University Walk, Bristol, BS8 1TW, UK
 Email (current): Georgios.Karagiannis@pnnl.gov
