@@ -4,7 +4,7 @@
 
 # Contact details :
 
-# Georgios Karagiannis (Copyright 2012)
+# Georgios Karagiannis © 2012
 # School of Mathematics, University of Bristol
 # University Walk, Bristol, BS8 1TW, UK
 # Email (current): Georgios.Karagiannis@pnnl.gov
