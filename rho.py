@@ -1,13 +1,39 @@
+
+# ============================================================================== 
+# Copyright notice :
+#  
+# Copyrigtht 2012 Georgios Karagiannis
+# 
+# This file is part of AISRJ_Toy.
+# 
+# AISRJ_Toy is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation version 2 of the License.
+# 
+# AISRJ_Toy is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+# ==============================================================================
+
 # ==============================================================================
 # RHO DISTRIBUTION FUNCTIONS
 # ==============================================================================
 
-# Contact details :
+# References :
 
-# Georgios Karagiannis © 2012
+# Karagiannis, G., & Andrieu, C. (2013). 
+# Annealed importance sampling reversible jump MCMC algorithms. 
+# Journal of Computational and Graphical Statistics, 22(3), 623-648.
+
+# Georgios Karagiannis
 # School of Mathematics, University of Bristol
 # University Walk, Bristol, BS8 1TW, UK
-# Email (current): Georgios.Karagiannis@pnnl.gov
+# Email : Georgios.Karagiannis@pnnl.gov
+# Email (current): georgios-stats@gmail.com
 
 # Christophe Andrieu
 # School of Mathematics, University of Bristol
