@@ -1,9 +1,6 @@
 
 --------------------------------------------------------------------------------
 
-COPYRIGHT NOTICE :
-------------------
-
 Copyrigtht 2012 Georgios Karagiannis
 
 This file is part of AISRJ_Toy.
@@ -19,7 +16,9 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+
 --------------------------------------------------------------------------------
+
 
 DESCRIPTION :
 -------------
@@ -27,6 +26,7 @@ DESCRIPTION :
 A Python implementation of AISRJ on a toy example 
 where the task is to sample from a transimensional 
 target distribusion defined on {1}xR∪{2}xRxR.
+
 
 REFERENCES:
 -----------
@@ -52,6 +52,7 @@ REQUIREMENTS :
 
 python 2.6 or later (tested on python 3.2 too)
 numpy and sys python modules
+
 
 FILES :
 -------
